@@ -1,0 +1,75 @@
+.mt-10 {
+    margin-top: 100px !important;
+}
+* {
+    /* border: solid red !important; */
+}
+.main-font {
+    font-family: "DM Sans", sans-serif !important;
+    font-optical-sizing: auto !important;
+    font-style: normal !important;   
+}
+.text-g {
+    color: #27AE60 !important;
+}
+.green {
+    background: #27AE60 !important;
+}
+.lh-0 {
+    line-height: 30px !important;
+}
+.bg-gray {
+    background: #212121 !important;
+}
+.gray {
+    color: #535353 !important;
+}
+.active-g {
+    border-bottom: 3px solid #27AE60 !important;
+}
+.p-left {
+    padding-left: 35px !important;
+}
+
+.py-c {
+    padding: 35px 0 !important;
+}
+.input-bottom-border {
+    background-color: transparent !important;
+    border: none  !important;
+    border-bottom: 2px solid #212121 !important;
+}
+.input-bottom-border:focus  {
+    border-bottom-color: #27AE60 !important;
+}
+.input-full-border {
+    background-color: transparent !important;
+    border: 2px solid #212121 !important;
+}
+.input-full-border:focus {
+    border-color: #27AE60 !important;
+}
+.btn-green {
+    background-color: #27AE60 !important;
+    border-radius: 0;
+}
+.form-control-lg {
+    border-radius: 0 !important;
+}
+.fs-half {
+    font-size: 50px !important;
+}
+@media screen and (min-width: 576px) {
+    .input-full-border {
+        height: 100px !important;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .fs-7 {
+        font-size: 13px !important;
+    }
+    .p-left {
+        padding-left: 35px !important;
+    }
+}
